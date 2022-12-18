@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="add.css">
+
+</head>
+
+<body>
+  <div class="all">
+    <div class="appbar">
+      <div class="ibusdiv">
+        <img src="bus.png" class="ibus">
+      </div>
+
+      <div class="appbartitle">Bus Note
+
+      </div>
+      <div class="navlinks">
+        <a href="home.php">
+          <div class="icons"><i class='fa fa-home sc '></i> Home</div>
+        </a>
+        <a href="search.php">
+          <div class="icons"><i class="fa fa-search sc"></i> Search</div>
+        </a>
+        <a href="add.html">
+        <div class="icons" style="padding-right: 27px;"><i class="fa fa-plus sc"></i> Add </div></a>
+
+      </div>
+    </div>
+
+    <div class="bodyall">
+      <div class="mainall">
+
+        <form action="add.php" method="post">
+          <table>
+            <tr>
+              <th>Bus name</th>
+              <th>Place</th>
+              <th>Time</th>
+              <th>Last stop</th>
+            </tr>
+            <tr>
+              <td><div class="inpdiv">
+                 <input type="text" name="busname" placeholder="Bus name" class="input"></div></td>
+              <td> <input type="text" name="Place" placeholder="Place" class="input"></td>
+              <td> <input type="text" name="time" placeholder="Time" class="input"></td>
+              <td> <input type="text" name="Laststop" placeholder="Last stop" class="input"></td>
+            </tr>
+          </table>
+
+
+      </div>
+      <div class="btndiv">
+        <input type="submit" class="button" value="Add">
+      </div>
+      </form>
+
+
+    </div>
+
+  </div>
+</body>
+
+</html>

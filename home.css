@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+.all{
+    padding-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4, 91, 98);
+}
+.appbar{
+    overflow: auto;
+    border-radius: 15px;
+    padding-left: 0px;
+    margin-left: 2%;
+    width: 96%;
+    height: 70px;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.appbartitle{
+    float: left;
+    width: 130px;
+    color: white;
+    font-size: 31px;
+    /* padding-top: 18px;
+    padding-left: 50px; */
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 11px;
+}
+.ibus{
+ 
+    width: 50px;
+    height: 50px;
+}
+.ibusdiv{
+    float: left;
+    width: 50px;
+    padding-left: 25px;
+}
+ .navlinks{
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: 877px;
+    width: 380px;
+    height: 50px;
+    background-color: #f53a3a;
+    
+} 
+.sc{
+    color: rgb(32, 177, 187);
+    font-size: 25px;
+}
+.icons{
+    
+    padding-top: 6px;
+    color:white;
+    padding-left: 27px;
+    padding-right: 42px;
+    width: auto;
+    float: left;
+}
+.bodyall{
+    width: 100%;
+    height: max-content;
+    background-color:rgb(4, 91, 98);
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+.mainall{
+
+    margin-left: 5%;
+    height: auto;
+    width: 90%;
+    background-color: rgb(195 229 227);
+
+}
+
+table, td, th {
+    border: 0;
+    border-bottom: 2px solid #adadad;
+
+  }
+  
+  table {
+    font-size: 27px;
+    width: 100%;
+    height: 110px;
+    border-collapse: separate;
+    
+
+  }
+
+  th{
+    border-spacing: 0px;
+    background-color: #ed1134;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+table td + td {
+    border-left: 2px solid #adadad;
+}
+
+td:focus{
+    background-color: #11ed2e;
+}
